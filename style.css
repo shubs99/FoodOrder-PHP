@@ -1,0 +1,222 @@
+/* Remove default margin from the body */
+body {
+    margin: 0;
+}
+
+/* CSS for the cart and item layout */
+
+.cart {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-item {
+    width: calc(80% - 5px); /* Two items in each row with a little space in between */
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.item-image {
+    flex: 0 0 80px;
+    margin-right: 10px;
+}
+
+.item-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.item-details {
+    flex: 1;
+}
+
+/* CSS for the quantity control */
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #ddd;
+    color: #333;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.quantity-control input[type="number"] {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 5px;
+}
+ 
+/* CSS for the navbar */
+/* CSS for the navbar */
+.navbar {
+    background-color: rgba(65, 62, 62, 0.7); /* Transparent grey background */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    height: 60px; /* Set the height of the navbar */
+}
+
+.logo {
+    margin-right: 20px;
+    margin-left: 100px; /* Add margin to the left to shift the logo to the right */
+}
+
+.logo img {
+    height: 40px;
+    width: 40px; /* Set the width to make the logo square */
+    border-radius: 5px; /* Optional: Add rounded corners to the logo */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Center the options horizontally within the navbar */
+    align-items: center; /* Center the options vertically within the navbar */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 5px; /* Add some gap between options */
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s; /* Add a transition effect for text color change */
+}
+
+.navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: black; /* Change text color to black on hover */
+}
+
+/* Remove default margin from the body */
+body {
+    margin: 0;
+}
+
+
+
+/* CSS for the filters and sort options */
+/* CSS for the navbar and other styles (add your CSS here) */
+/* ... */
+
+/* CSS for the filters and sort options */
+.filters-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sort {
+    margin-right: 20px;
+}
+
+.sort h2 {
+    margin-right: 10px;
+}
+
+.sort select {
+    padding: 5px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+}
+
+.filters h2 {
+    margin-right: 10px;
+}
+
+.filters label {
+    margin-right: 10px;
+}
+
+/* Styling for the oval buttons */
+.filters label {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filters label:hover {
+    background-color: #e0e0e0;
+}
+
+/* Center the submit button and add gap */
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+.submit-button-container form {
+    display: flex;
+    align-items: center;
+}
+
+.submit-button-container form .submit-button {
+    margin-top: 10px; /* Adjust the value as needed */
+}
+
+/* Submit button styles (your existing styles for the submit button) */
+.submit-button {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px; /* Make the button round */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add a transition effect */
+}
+
+.submit-button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+
+
+
+
+
+
+
